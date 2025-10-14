@@ -14,7 +14,7 @@ const Navbar = () => {
             <NavLink className={'hover:text-green-600'} to={'/'}>Home</NavLink>
             <NavLink className={'hover:text-green-600'} to={'/about'}>About</NavLink>
             {islogged && <NavLink className={'hover:text-green-600'} to={'/products'}>Products</NavLink>}
-            {islogged && <NavLink className={'hover:text-green-600'} to={'/products'}>Services</NavLink>}
+            {islogged && <NavLink className={'hover:text-green-600'} to={'/services'}>Services</NavLink>}
         </div>
         {!islogged? (<div className='flex gap-8 font-medium'>
             <button onClick={()=>setShowUserRegister(true)} type='button' className='hover:underline cursor-pointer'>Register</button>

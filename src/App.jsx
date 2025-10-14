@@ -9,6 +9,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import { AppContext } from './context/AppContext'
 import Dashboard from './pages/Dashboard'
+import Services from './pages/Services'
 
 const App = () => {
   const {showUserLogin, showUserRegister}= useContext(AppContext)
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/login' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
         <Route path='/dashboard' element={<Dashboard/>} />
+        <Route path='/services' element={<Services/>} />
       </Routes>
     </div>
   )
