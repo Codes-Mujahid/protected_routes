@@ -28,18 +28,7 @@ export const AppContextProvider = (props) => {
   }, [islogged]);
 
   const value = {
-    navigate,
-    toast,
-    islogged,
-    setIsLogged,
-    showUserLogin,
-    showUserRegister,
-    setShowUserLogin,
-    setShowUserRegister,
-    formData,
-    setFormData,
-    loginData,
-    setLoginData
+    navigate, toast, islogged, setIsLogged, showUserLogin, showUserRegister, setShowUserLogin, setShowUserRegister, formData, setFormData, loginData, setLoginData
   };
 
   return (
